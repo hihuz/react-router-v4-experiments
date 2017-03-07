@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import {
   Route,
   Link
@@ -22,4 +22,5 @@ const BasicExample = () => (
   </div>
 )
 
-export default connect()(BasicExample)
+// export default connect()(BasicExample)
+export default BasicExample
