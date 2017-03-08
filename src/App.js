@@ -3,7 +3,8 @@ import React from 'react'
 import { connect } from 'react-redux';
 import {
   Route,
-  Link
+  Link,
+  withRouter
 } from 'react-router-dom'
 
 import Home from './home.js';
@@ -22,4 +23,4 @@ const BasicExample = () => (
   </div>
 )
 
-export default connect()(BasicExample)
+export default withRouter(connect()(BasicExample))
