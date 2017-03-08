@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 import { connect } from 'react-redux';
 import {
   Route,
   Link,
   withRouter
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 import Home from './home.js';
 import About from './about.js';
@@ -21,6 +21,6 @@ const BasicExample = () => (
     <Route exact path="/" component={Home} />
     <Route path="/about" component={About} />
   </div>
-)
+);
 
-export default withRouter(connect()(BasicExample))
+export default withRouter(connect()(BasicExample));
